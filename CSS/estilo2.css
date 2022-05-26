@@ -25,10 +25,12 @@ header img{
     margin: 0 0 0 10px;
 }
 
-button{
+header div div{
     /* flex-direction: row; */
     margin: 0 10px 0 0;
 }
+
+
 
 main div{
     background: /*linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 01)),*/ url('../IMG/empresa.png');

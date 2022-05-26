@@ -1,0 +1,58 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+    background-color: white;
+}
+
+header{
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.548);
+}
+
+header div{
+    height: 3em;
+
+    background-color: white;
+    margin: 0 100px 0 100px;
+
+    margin-bottom: 3%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div #d1 img{
+    width: 64px;
+    margin: 0 0 0 0;
+}
+ 
+header div #d1{
+    margin: 0 0 0 10px;
+}
+
+header div #d2{
+    color: black;
+    margin: 0;
+    width: 38%;
+}
+
+
+header div #d3{
+    /* flex-direction: row; */
+    width: 16%;
+    margin: 0 10px 0 10px;
+    justify-content: space-between;
+}
+
+main{
+    display: flex;
+}
+
+footer{
+    width: 100%;
+    background-color: white;
+    color:black;
+    text-align: center;
+}
