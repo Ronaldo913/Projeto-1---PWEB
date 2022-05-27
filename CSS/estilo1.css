@@ -58,6 +58,11 @@ header div #d3 button{
     cursor: pointer;
 }
 
+header div #d3 button:hover{
+    background-color: rgb(224, 193, 17);
+    transition: all 1650ms;
+}
+
 main #d4{
     display: flex;
     justify-content: space-between;
