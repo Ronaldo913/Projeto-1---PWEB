@@ -106,6 +106,7 @@ main #d4 #d5 #d7{
 
 main #d4 #d5 #d7 button:hover{
     background-color: rgb(224, 193, 17);
+    transition: all 350ms;
 }
 
 
