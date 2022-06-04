@@ -71,7 +71,7 @@ body {
 }
 
 #navegacao a{
-    float: right;
+    float: middle;
     color: white;
     text-decoration: none;
     position: relative;
