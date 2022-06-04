@@ -70,6 +70,15 @@ body {
     overflow: hidden;
 }
 
+#navegacao a{
+    float: right;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
 .item-foto {
     display: inline-block;
     margin-left: 2%;
