@@ -33,7 +33,7 @@ body {
 #principal {
     color: white;
     font-family: 'Montserrat';
-    background: url('../IMG/fotoprinicial.jpeg');
+    background: linear-gradient(rgba(68, 34, 2, 0.2), rgba(70, 26, 5, 0.2), rgba(121, 38, 6, 0.2)), url('../IMG/fotoprinicial.jpeg');
     background-size: 100%;
     text-align: center;
     padding-top: 15%;
@@ -136,7 +136,7 @@ a{
     padding-top: 10px;
 }
 
-  #texto-cortes {
+#texto-cortes {
     text-align: right;
     overflow: auto;
     width: 40%;
