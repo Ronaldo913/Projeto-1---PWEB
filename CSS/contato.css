@@ -90,10 +90,10 @@ body {
     background-color: #34af23;
 }
 .item-div #btn2 {
-    background-color: #2d4b8b;
+    background: linear-gradient(#8f238f, #d445d4, #c2a23b);
 }
 .item-div #btn1 {
-    background-color: #2d4b8b;
+    background-color: #db4a39;
 }
 
 #pp {
