@@ -28,7 +28,7 @@ body {
     padding-right: 2px;
 }
 
-#principal{
+#principal {
     color: black;
     font-family: 'Tapestry', cursive;
     font-size: 150%;
@@ -45,13 +45,13 @@ body {
     overflow: hidden;
 }
 
-#texto{
+#texto {
     margin-left: 3%;
     margin-right: 3%;
     background-color: yellow;
 }
 
-#texto p{
+#texto p {
     margin-top: 5%;
     text-align: center;
 }
@@ -62,26 +62,49 @@ body {
     width: none;
 } */
 
-.item-div{
+.item-div {
     float: left;
     width: 27.3%;
     margin-left: 1.5%;
-    background: linear-gradient( rgba(54, 21, 0, 0.7), rgba(28, 10, 0, 0.7));
+    background: linear-gradient(rgba(54, 21, 0, 0.7), rgba(28, 10, 0, 0.7));
     margin-bottom: 10px;
     margin-left: 3%;
     margin-right: 3%;
     margin-bottom: 3%;
-}
-
-#pp{
     text-align: center;
 }
 
-#ppp{
+.item-div button {
+    margin-bottom: 10px;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    width: 110px;
+    height: 30px;
+}
+
+.item-div #bnt4 {
+    background-color: #2d4b8b;
+}
+.item-div #bnt3 {
+    background-color: #2d4b8b;
+}
+.item-div #bnt4 {
+    background-color: #2d4b8b;
+}
+.item-div #bnt4 {
+    background-color: #2d4b8b;
+}
+
+#pp {
+    text-align: center;
+}
+
+#ppp {
     padding-left: 10px;
 }
 
-#lado{
+#lado {
     margin-top: 2%;
     margin-left: 3%;
     margin-right: 3%;
@@ -89,7 +112,7 @@ body {
 
 footer {
     /* vermelho (E3), verde (BA), azul (B3) */
-    background: linear-gradient( to top, rgba(54, 21, 0, 0.7), rgba(28, 10, 0, 0.7));
+    background: linear-gradient(to top, rgba(54, 21, 0, 0.7), rgba(28, 10, 0, 0.7));
     text-align: center;
     padding: 1%;
     color: white;
@@ -100,14 +123,14 @@ footer {
     height: none;
 }
 
-form{
+form {
     padding-top: 3%;
     margin-left: 3%;
     margin-right: 3%;
     text-align: center;
 }
 
-#textoo{
+#textoo {
     margin-top: none;
     margin-left: none;
     margin-right: none;
@@ -115,21 +138,22 @@ form{
     width: none;
 }
 
-#textoo p{
+#textoo p {
     margin-top: none;
     text-align: center;
     height: none;
     width: none;
 }
 
-#text{
+#text {
     height: 40px;
     width: 50%;
 }
 
-#submit{
+#submit {
     height: 40px;
     width: 20%;
 }
+
 /* https://loja.cafeorfeu.com.br/institucional/quem-somos
 https://quierocafe.com.br/fale-conosco/ */
