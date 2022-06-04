@@ -33,7 +33,7 @@ body {
 #principal {
     color: white;
     font-family: 'Montserrat';
-    background: linear-gradient(rgba(96, 54, 1, 0.7), rgba(54, 21, 0, 0.7), rgba(28, 10, 0, 0.7)), url('../images/fundo.jpg');
+    background: url('../IMG/fotoprinicial.jpeg');
     background-size: 100%;
     text-align: center;
     padding-top: 15%;
