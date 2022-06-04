@@ -30,8 +30,8 @@ body {
 #principal {
     color: white;
     font-family: 'Montserrat';
-    background: url('../images/menu.png');
-    background-size: 33.4%;
+    background: linear-gradient(rgba(96, 54, 1, 0.7), rgba(54, 21, 0, 0.7), rgba(28, 10, 0, 0.7)), url('../images/fundo.jpg');
+    background-size: 100%;
     text-align: center;
     padding-top: 15%;
     padding-bottom: 15%;
@@ -40,7 +40,6 @@ body {
     margin-right: 3%;
     border-radius: 10px;
     height: 150px;
-    border:  3px solid white;
 }
 
 #principal h1{

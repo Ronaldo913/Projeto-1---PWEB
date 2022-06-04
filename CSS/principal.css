@@ -121,50 +121,23 @@ a{
     overflow: hidden;
 }
 
-#fotos-cortes {
+#fotos-cortes img{
     width: 50%;
-    float: left;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-left: 3%;
     margin-right: 3%;
+    display: inline-block;
 }
 
-#fotos-cortes img {
-    width: 30%;
-    min-width: 200px;
-    border-radius: 10px;
+#cortes-lista {
+    width: 50%;
+    float: left;
+    padding-top: 10px;
 }
-
-.slide-control:nth-child(1):checked ~ .cortes-show .cortes-lista{--selected-item: 0;}
-.slide-control:nth-child(2):checked ~ .cortes-show .cortes-lista{--selected-item: 1;}
-.slide-control:nth-child(3):checked ~ .cortes-show .cortes-lista{--selected-item: 2;}
-.slide-control:nth-child(4):checked ~ .cortes-show .cortes-lista{--selected-item: 3;}
-
-.cortes-show{
-  overflow: hidden;
-}
-
-.cortes-lista{
-    --selected-item: 0;
-    --total-items: 4;
-    list-style-type: none;
-    margin: 10px 0;
-    padding: 0;
-    position: relative;
-    left: calc(var(--selected-item) * -100%);
-    width: calc(var(--total-items) * 100%);
-    transition: left 0.4s cubic-bezier(0.680, -0.550, 0.265, 1.550);
-    min-height: 300px;
-    text-align: center;
-
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: 1fr;
-  }
 
   #texto-cortes {
-    text-align: center;
+    text-align: right;
     overflow: auto;
     width: 40%;
     margin-left: 3%;
