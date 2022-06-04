@@ -148,10 +148,11 @@ footer {
     height: none;
 }
 
+/* Animação de traço nas opções da barra de navegação */
 #container header #navbar a:before {
     content: "";
     width: 100%;
-    height: 3px;
+    height: 1px;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -169,11 +170,98 @@ footer {
     transform: scaleX(1);
 }
 
-/* @keyframes traco {
-    25%(border-bottom: solid white 1px; );
+/* /* @keyframes traco {
+    /* 25%(border-bottom: solid white 1px; );
     /* 50%();
     75%();
-    100%(); */
+    100%(); }
+*/
+
+/* efeito de ir aparecendo(opacidade) */
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
-*/
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* efeito de ir aparecendo(opacidade) */
+#container {
+    -webkit-animation: fadeIn 3s ease-in-out;
+    -moz-animation: fadeIn 3s ease-in-out;
+    -o-animation: fadeIn 3s ease-in-out;
+    animation: fadeIn 3s ease-in-out;
+}
+
+/* Animação de loading */
+.centered{
+    width:400px;
+    height:400px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background:#000;
+    filter: blur(10px) contrast(20);
+  }
+  .blob-1,.blob-2{
+    width:70px;
+    height:70px;
+    position:absolute;
+    background:#fff;
+    border-radius:50%;
+    top:50%;left:50%;
+    transform:translate(-50%,-50%);
+  }
+  .blob-1{
+    left:20%;
+    animation:osc-l 2.5s ease infinite;
+  }
+  .blob-2{
+    left:80%;
+    animation:osc-r 2.5s ease infinite;
+    background:#0ff;
+  }
+  @keyframes osc-l{
+    0%{left:20%;}
+    50%{left:50%;}
+    100%{left:20%;}
+  }
+  @keyframes osc-r{
+    0%{left:80%;}
+    50%{left:50%;}
+    100%{left:80%;}
+  }
