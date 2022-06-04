@@ -55,7 +55,25 @@ body {
 
 #mapa{
     text-align: center;
-    align-items: center;
+    background-color: white;
+}
+
+#mapa iframe{
+    border-radius: 13px;
+    border: solid black .6px;
+}
+
+footer {
+    /* vermelho (E3), verde (BA), azul (B3) */
+    background: linear-gradient(to top, rgba(54, 21, 0, 0.7), rgba(28, 10, 0, 0.7));
+    text-align: center;
+    padding: 1%;
+    color: white;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 5%;
+    border-radius: 10px;
+    height: none;
 }
 
 /* Animação de traço nas opções da barra de navegação */
