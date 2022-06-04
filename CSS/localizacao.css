@@ -55,7 +55,11 @@ body {
 
 #mapa{
     text-align: center;
-    background-color: white;
+    /* background-color: grey;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 10px;
+    padding: 5px 0 5px 0; */
 }
 
 #mapa iframe{
