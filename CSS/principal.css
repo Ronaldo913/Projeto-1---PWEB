@@ -248,11 +248,11 @@ footer {
   }
   .blob-1{
     left:20%;
-    animation:osc-l 2.5s ease infinite;
+    animation:osc-l 1.4s ease infinite;
   }
   .blob-2{
     left:80%;
-    animation:osc-r 2.5s ease infinite;
+    animation:osc-r 1.4s ease infinite;
     background:#0ff;
   }
   @keyframes osc-l{
