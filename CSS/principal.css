@@ -43,6 +43,7 @@ body {
     margin-right: 3%;
     border-radius: 10px;
     height: 150px;
+    border: 2px solid white;
 }
 
 #principal h1 {
@@ -70,7 +71,7 @@ body {
     overflow: hidden;
 }
 
-#navegacao a{
+#navegacao a {
     float: middle;
     color: white;
     text-decoration: none;
@@ -87,7 +88,7 @@ body {
     align-items: center;
 }
 
-a{
+a {
     margin-right: 0;
     margin-top: 0;
     position: relative;
@@ -118,6 +119,10 @@ a{
     margin-right: 3%;
     height: none;
     overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #cortes-lista {
@@ -127,11 +132,10 @@ a{
 }
 
 #texto-cortes {
-    text-align: right;
+    /* text-align: center; */
     overflow: auto;
     width: 40%;
-    margin-left: 3%;
-    margin-top: 4%;
+    margin: 0;
 }
 
 footer {

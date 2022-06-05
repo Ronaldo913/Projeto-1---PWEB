@@ -43,6 +43,7 @@ body {
     border-radius: 10px;
     height: 200px;
     overflow: hidden;
+    border: 2px solid white;
 }
 
 #texto {
