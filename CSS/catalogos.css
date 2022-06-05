@@ -63,6 +63,10 @@ body {
     overflow: none;
 }
 
+.item-div a{
+    position: relative;
+    cursor: pointer;
+}
 #pp{
     text-align: center;
     color: white;
@@ -107,7 +111,7 @@ footer {
 }
 
 /* Animação de traço nas opções da barra de navegação */
-#navbar a:before {
+a:before{
     content: "";
     width: 100%;
     height: 1px;
@@ -122,7 +126,7 @@ footer {
     transition: all 0.3s ease-in-out 0s;
 }
 
-#navbar a:hover:before {
+a:hover:before {
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
