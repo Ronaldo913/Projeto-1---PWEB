@@ -45,15 +45,27 @@ body {
     height: 150px;
 }
 
-#bemvindo{
+#bemvindo {
     background: linear-gradient(to top, rgba(54, 21, 0, 0.7), rgba(28, 10, 0, 0.7));
     color: white;
+    font-family: 'Montserrat';
     margin-left: 3%;
     margin-right: 3%;
     padding: 10px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
+#bemvindo #bem2 h2{
+    float: right;
+}
+
+#bemvindo #bem2 div{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
 
 footer {
     /* vermelho (E3), verde (BA), azul (B3) */
