@@ -159,7 +159,17 @@ form {
     width: 60px;
     border-radius: 5px;
     color: rgb(49, 75, 223);
+    border: 1.5px solid rgb(49, 75, 223);
+    cursor: pointer;
+}
+
+#textoo button:hover {
+    height: 30px;
+    width: 60px;
+    border-radius: 5px;
+    color: white;
     border: 1px solid rgb(49, 75, 223);
+    background-color: rgb(49, 75, 223);
 }
 
 /* https://loja.cafeorfeu.com.br/institucional/quem-somos
