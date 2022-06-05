@@ -54,6 +54,7 @@ body {
     border-radius: 10px;
 }
 
+
 footer {
     /* vermelho (E3), verde (BA), azul (B3) */
     background: linear-gradient(to top, rgba(54, 21, 0, 0.7), rgba(28, 10, 0, 0.7));
