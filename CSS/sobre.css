@@ -30,7 +30,7 @@ body {
     padding-right: 2px;
 }
 
-#localizacao {
+#sobre {
     color: white;
     font-family: 'Montserrat';
     background: linear-gradient(rgba(96, 54, 1, 0.7), rgba(54, 21, 0, 0.7), rgba(28, 10, 0, 0.7)), url('../images/fundo.jpg');
@@ -45,26 +45,12 @@ body {
     height: 150px;
 }
 
-#principal h1 {
-    margin: 0;
-}
-
-#principal p {
-    font-size: 1.7em;
-}
-
-#mapa{
-    text-align: center;
-    /* background-color: grey;
+#bemvindo{
+    background: linear-gradient(to top, rgba(54, 21, 0, 0.7), rgba(28, 10, 0, 0.7));
+    color: white;
     margin-left: 3%;
     margin-right: 3%;
     border-radius: 10px;
-    padding: 5px 0 5px 0; */
-}
-
-#mapa iframe{
-    border-radius: 13px;
-    border: solid black .6px;
 }
 
 footer {
