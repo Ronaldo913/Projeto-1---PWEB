@@ -175,55 +175,12 @@ a:hover:before {
     transform: scaleX(1);
 }
 
-/* /* @keyframes traco {
-    /* 25%(border-bottom: solid white 1px; );
-    /* 50%();
-    75%();
-    100%(); }
-*/
-
 /* efeito de ir aparecendo(opacidade) */
-@-webkit-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-@-moz-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-@-o-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
 @keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
+    0% {opacity: 0;}
+    100% {opacity: 1;}
 }
 
-/* efeito de ir aparecendo(opacidade) */
 #container {
     -webkit-animation: fadeIn 2s ease-in-out;
     -moz-animation: fadeIn 2s ease-in-out;
