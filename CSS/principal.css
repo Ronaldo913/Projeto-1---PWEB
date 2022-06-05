@@ -225,10 +225,10 @@ a:hover:before {
 
 /* efeito de ir aparecendo(opacidade) */
 #container {
-    -webkit-animation: fadeIn 3s ease-in-out;
-    -moz-animation: fadeIn 3s ease-in-out;
-    -o-animation: fadeIn 3s ease-in-out;
-    animation: fadeIn 3s ease-in-out;
+    -webkit-animation: fadeIn 2s ease-in-out;
+    -moz-animation: fadeIn 2s ease-in-out;
+    -o-animation: fadeIn 2s ease-in-out;
+    animation: fadeIn 2s ease-in-out;
 }
 
 /* Animação de loading */
