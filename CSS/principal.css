@@ -12,6 +12,7 @@ body {
     margin-right: 3%;
     margin-bottom: 1%;
     margin-top: 0.3%;
+    position: sticky;
 }
 
 #navbar a {
