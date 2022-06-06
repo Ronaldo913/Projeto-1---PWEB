@@ -33,7 +33,7 @@ body {
 #sobre {
     color: white;
     font-family: 'Montserrat';
-    background: linear-gradient(rgba(96, 54, 1, 0.7), rgba(54, 21, 0, 0.7), rgba(28, 10, 0, 0.7)), url('../images/fundo.jpg');
+    background: linear-gradient(rgba(96, 54, 1, 0.7), rgba(54, 21, 0, 0.7), rgba(28, 10, 0, 0.7));
     background-size: 100%;
     text-align: center;
     padding-top: 15%;
@@ -42,6 +42,7 @@ body {
     margin-left: 3%;
     margin-right: 3%;
     border-radius: 10px;
+    border: 2px white solid;
     height: 150px;
 }
 
