@@ -68,6 +68,7 @@ body {
     position: relative;
     cursor: pointer;
 }
+
 #pp{
     text-align: center;
     color: white;
@@ -96,6 +97,10 @@ footer {
     margin-right: 3%;
     border-radius: 10px;
     height: none;
+}
+
+.produto {
+    width: 1000px;
 }
 
 /* efeito de ir aparecendo(opacidade) */
