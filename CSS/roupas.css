@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@100&display=swap');
+
+body {
+    font-family: 'Tapestry', cursive;
+    margin: 0;
+    background-color: black;
+}
+
+#navbar {
+    background-color: black;
+    height: 4em;
+    margin-right: 3%;
+    margin-bottom: 1%;
+    margin-top: 0.3%;
+}
+
+#navbar a {
+    float: right;
+    color: white;
+    text-decoration: none;
+    margin-right: 5%;
+    margin-top: 2%;
+    position: relative;
+}
+
+#navbar img {
+    float: right;
+    width: 64px;
+    border-radius: 10px;
+    padding-right: 2px;
+}
+
+#principal {
+    color: white;
+    font-family: 'Montserrat';
+    background: linear-gradient(rgba(96, 54, 1, 0.7), rgba(54, 21, 0, 0.7), rgba(28, 10, 0, 0.7)), url('../IMG/roupasHeader.jpg');
+    background-size: 100%;
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    margin-bottom: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 10px;
+    border: 2px white solid;
+    height: 150px;
+}
+
+#principal h1{
+    padding-top: 4%;
+    text-align: center;
+}
+
+.item-div{
+    float: left;
+    width: 27.3%;
+    background: linear-gradient( rgba(68, 28, 3, 0.7), rgba(46, 17, 1, 0.7));
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    text-align: center;
+    height: none;
+    overflow: none;
+}
+
+.item-div a{
+    position: relative;
+    cursor: pointer;
+}
+#pp{
+    text-align: center;
+    color: white;
+}
+
+#lado{
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+    color: white;
+}
+
+#contato img{
+    padding-top: 20px;
+    padding-bottom: none;
+    border-radius: 10px;
+}
+
+footer {
+    /* vermelho (E3), verde (BA), azul (B3) */
+    background: linear-gradient( to top, rgba(54, 21, 0, 0.7), rgba(28, 10, 0, 0.7));
+    text-align: center;
+    padding: 1%;
+    color: white;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 10px;
+    height: none;
+}
+
+/* efeito de ir aparecendo(opacidade) */
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+#container {
+    -webkit-animation: fadeIn 2s ease-in-out;
+    -moz-animation: fadeIn 2s ease-in-out;
+    -o-animation: fadeIn 2s ease-in-out;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Animação de traço nas opções da barra de navegação */
+a:before{
+    content: "";
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
