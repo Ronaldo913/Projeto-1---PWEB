@@ -137,15 +137,9 @@ a {
 }
 
 #texto-cortes {
-    /* text-align: center; */
-    overflow: auto;
     width: 40%;
+    font-size: 80%;
     margin: 0;
-}
-
-.image {
-    height: 60%;
-    width: 60%;
 }
 
 footer {
@@ -193,6 +187,20 @@ a:hover:before {
     -moz-animation: fadeIn 2s ease-in-out;
     -o-animation: fadeIn 2s ease-in-out;
     animation: fadeIn 2s ease-in-out;
+}
+
+@media screen and (max-width: 650px) {
+    .image {
+      width: 200px;
+      height: 200px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .image {
+      width: 130px;
+      height: 130px;
+    }
 }
 
 /* Animação de loading */
