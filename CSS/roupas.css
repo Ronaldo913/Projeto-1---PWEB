@@ -99,10 +99,6 @@ footer {
     height: none;
 }
 
-.produto {
-    width: 1000px;
-}
-
 /* efeito de ir aparecendo(opacidade) */
 @keyframes fadeIn {
     0% {opacity: 0;}
