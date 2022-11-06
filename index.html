@@ -12,83 +12,107 @@
 
 <body>
 
-    <div id="container">
-
-        <!-- <div class="centered">
-            <div class="blob-1"></div>
-            <div class="blob-2"></div>
-        </div> -->
-
-        <header>
-            <div id="navbar">
-
+    <div id="fade" class="hide"></div>
+    <div id="modal" class="hide">
+        <div class="modal-header">
+            <h2>Este é o Modal</h2>
+            <button id="close-modal">Fechar</button>
+        </div>
+        <div class="modal-body">
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic, quam?
+                Quas accusantium id cupiditate iste veritatis repudiandae odio dolore
+                voluptas. Eum, deserunt quod. Sit similique laudantium assumenda
+                repellat vel necessitatibus.
+            </p>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius alias
+                voluptate doloremque, totam inventore autem quis non error! Earum
+                ullam fuga, officiis voluptates pariatur unde et adipisci ducimus non
+                obcaecati.
+            </p>
+        </div>
+    </div>
+    <!-- <div class="centered">
+        <div class="blob-1"></div>
+        <div class="blob-2"></div>
+    </div> -->
+    
+    <header>
+        <div id="navbar">
+            <div class="divs">
+                <button id="open-modal">Abrir</button>
+            </div>
+            
+            <div class="divs" style="display: flex; flex-direction: row-reverse;">
                 <img src="../IMG/dono.png" />
                 <a href="index.html">Início</a>
                 <a href="./HTML/sobre.html">Sobre</a>
                 <a href="./HTML/localizacao.html">Localização</a>
                 <a href="./HTML/contato.html">Contato</a>
-
             </div>
-        </header>
+        </div>
+    </header>
 
-        <main>
-            <div id="principal">
-                <h1>Barbearia Stylus</h1>
-                <p> A melhor barbearia de São Sebastião e região!</p>
+    <main>
+        <div id="principal">
+            <h1>Barbearia Stylus</h1>
+            <p> A melhor barbearia de São Sebastião e região!</p>
+        </div>
+
+        <div id="navegacao">
+
+            <h2>Navegue pelo site</h2>
+
+            <div class="item-foto">
+                <a href="./HTML/joias.html">
+                    <img src="./IMG/relogio-joalheria.jpg" width=250 height=250 />
+                </a>
+
+                <a href="./HTML/joias.html">Joalheria</a>
             </div>
+            <div class="item-foto">
+                <a href="./HTML/roupas.html">
+                    <img src="./IMG/roupas-roupas.jpg" width=250 height=250 />
+                </a>
 
-            <div id="navegacao">
-
-                <h2>Navegue pelo site</h2>
-
-                <div class="item-foto">
-                    <a href="./HTML/joias.html">
-                        <img src="./IMG/relogio-joalheria.jpg" width=250 height=250 />
-                    </a>
-
-                    <a href="./HTML/joias.html">Joalheria</a>
-                </div>
-                <div class="item-foto">
-                    <a href="./HTML/roupas.html">
-                        <img src="./IMG/roupas-roupas.jpg" width=250 height=250 />
-                    </a>
-
-                    <a href="./HTML/roupas.html">Roupas</a>
-                </div>
-
-                <div class="item-foto">
-                    <a href="./HTML/cosmeticos.html">
-                        <img src="./IMG/hidratante-cosmeticos.jpg" width=250 height=250 />
-                    </a>
-
-                    <a href="./HTML/cosmeticos.html">Cosméticos</a>
-                </div>
+                <a href="./HTML/roupas.html">Roupas</a>
             </div>
 
-            <div id="cortes">
-                <div id="texto-cortes">
-                    <h1>Conheça alguns de nossos cortes</h1>
-                    <h2>Cliente sempre satisfeito</h2>
+            <div class="item-foto">
+                <a href="./HTML/cosmeticos.html">
+                    <img src="./IMG/hidratante-cosmeticos.jpg" width=250 height=250 />
+                </a>
+
+                <a href="./HTML/cosmeticos.html">Cosméticos</a>
+            </div>
+        </div>
+
+        <div id="cortes">
+            <div id="texto-cortes">
+                <h1>Conheça alguns de nossos cortes</h1>
+                <h2>Cliente sempre satisfeito</h2>
+            </div>
+
+            <div id="cortes-lista">
+                <div id="img-cortes">
+                    <img class="image" src="../IMG/corte01.jpg" />
+                    <img class="image" src="../IMG/corte02.jpeg" />
                 </div>
 
-                <div id="cortes-lista">
-                    <div id="img-cortes">
-                        <img class="image" src="../IMG/corte01.jpg" />
-                        <img class="image" src="../IMG/corte02.jpeg" />
-                    </div>
-
-                    <div id="img-cortes">
-                        <img class="image" src="../IMG/corte03.jpeg" />
-                        <img class="image" src="../IMG/corte04.jpeg" />
-                    </div>
+                <div id="img-cortes">
+                    <img class="image" src="../IMG/corte03.jpeg" />
+                    <img class="image" src="../IMG/corte04.jpeg" />
                 </div>
             </div>
-        </main>
+        </div>
+    </main>
 
-        <footer>
-            São Sebastião - 2022
-        </footer>
+    <footer>
+        São Sebastião - 2022
+    </footer>
     </div>
+    <script src="./CSS/script.js"></script>
 </body>
 
 </html>
